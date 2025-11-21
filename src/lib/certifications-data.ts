@@ -14,6 +14,24 @@ export type Certification = {
 // Define and export your certifications array
 export const certifications: Certification[] = [
     {
+        id: 4,
+        title: "SolidWorks Simulation Associate",
+        issuer: "Dassault Systèmes",
+        date: "2024",
+        description: "Certified in the fundamentals of Finite Element Analysis (FEA) using SolidWorks Simulation. Skilled in setting up static studies, applying boundary conditions, meshing components, interpreting stress/strain results",
+        technologies: ["SolidWorks Simulation", "FEA", "Stress Analysis"],
+        image: "/simulation associate.png",
+    },
+    {
+        id: 3,
+        title: "Certified SolidWorks Associate (CSWA)",
+        issuer: "Dassault Systèmes",
+        date: "2024",
+        description: "Validates expertise in 3D modeling, design concepts, and sustainable design using SolidWorks.",
+        technologies: ["SolidWorks", "3D Modeling", "Mechanical Design"],
+        image: "/CSWA.png",
+    },
+    {
         id: 1,
         title: "ANSYS Certification",
         issuer: "ANSYS Inc.",

@@ -27,14 +27,22 @@ export default function Projects() {
         <ParallaxScroll projects={projects.slice(0, 2)} />
       </div>
 
-      <Link href="/projects">
-        <Button variant="outline" className="mt-8">
-          <div className="flex items-center gap-2">
-            <h3>View All Projects</h3>
-            <ExternalLink className="w-4 h-4" />
-          </div>
-        </Button>
-      </Link>
+      <div className="flex gap-4 mt-8">
+        <Link href="/projects">
+          <Button variant="outline">
+            <div className="flex items-center gap-2">
+              <h3>View All Projects</h3>
+              <ExternalLink className="w-4 h-4" />
+            </div>
+          </Button>
+        </Link>
+
+        <Link href="/#certifications">
+          <Button variant="default">
+            View Certifications
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 }

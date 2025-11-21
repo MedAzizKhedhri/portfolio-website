@@ -66,6 +66,15 @@ export default function Hero() {
           <p className="font-serif text-xl pt-4 lg:pt-9 text-muted-foreground">
             Mechanical Engineer
           </p>
+          <div className="pt-6 flex justify-center md:justify-start">
+            <a
+              href="/CV Professionnel Minimaliste Ingénieur Noir et Blanc (2).pdf"
+              download
+              className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </div>
     </section>
