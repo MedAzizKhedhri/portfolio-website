@@ -37,14 +37,7 @@ export const projects: Project[] = [
     image: "/reciprocating engine or compressor system.png",
     live: "#",
   },
-  {
-    id: 4,
-    title: "Subscription Tracker",
-    description: "A comprehensive application for managing and tracking recurring subscriptions. Features include payment reminders, spending analytics, and categorization of services to help users maintain control over their recurring expenses.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-    image: "/subscriptionTrackr.jpg",
-    live: "#",
-  },
+
 ];
 
 export const historyData = [

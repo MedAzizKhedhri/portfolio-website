@@ -24,6 +24,7 @@ const navLinks: NavLink[] = [
   { id: "about", label: "About", href: "/#about" },
   { id: "career", label: "Career", href: "/#career" },
   { id: "projects", label: "Projects", href: "/#projects" },
+  { id: "certifications", label: "Certifications", href: "/#certifications" },
   { id: "contact", label: "Contact", href: "/#contact" },
 ];
 
@@ -37,8 +38,8 @@ export default function Navbar() {
     if (pathname !== "/") {
       return;
     }
-    
-    e.preventDefault(); 
+
+    e.preventDefault();
     if (targetId === "#home") {
       window.scrollTo({
         top: 0,
@@ -102,9 +103,8 @@ export default function Navbar() {
                   <Link
                     href={link.href}
                     onClick={(e) => handleScrollClick(e, `#${link.id}`)}
-                    className={`text-sm font-medium transition-colors hover:text-primary ${
-                      isActive ? "text-primary" : "text-muted-foreground"
-                    }`}
+                    className={`text-sm font-medium transition-colors hover:text-primary ${isActive ? "text-primary" : "text-muted-foreground"
+                      }`}
                   >
                     {link.label}
                   </Link>
@@ -118,7 +118,7 @@ export default function Navbar() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="p-2 rounded-md hover:bg-muted"
-              aria-label="Open navigation  menu">
+                aria-label="Open navigation  menu">
                 <Menu className="h-6 w-6" />
               </button>
             </DropdownMenuTrigger>
@@ -132,9 +132,8 @@ export default function Navbar() {
                     <Link
                       href={link.href}
                       onClick={(e) => handleScrollClick(e, `#${link.id}`)}
-                      className={`text-sm font-medium transition-colors hover:text-primary w-full ${
-                        isActive ? "text-primary" : "text-muted-foreground"
-                      }`}
+                      className={`text-sm font-medium transition-colors hover:text-primary w-full ${isActive ? "text-primary" : "text-muted-foreground"
+                        }`}
                     >
                       {link.label}
                     </Link>

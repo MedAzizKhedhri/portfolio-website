@@ -36,12 +36,6 @@ export default function Projects() {
             </div>
           </Button>
         </Link>
-
-        <Link href="/#certifications">
-          <Button variant="default">
-            View Certifications
-          </Button>
-        </Link>
       </div>
     </section>
   );
