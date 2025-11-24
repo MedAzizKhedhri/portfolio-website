@@ -68,7 +68,7 @@ export default function Hero() {
           </p>
           <div className="pt-6 flex justify-center md:justify-start">
             <a
-              href="/CV Professionnel Minimaliste Ingénieur Noir et Blanc (2).pdf"
+              href="/CV Professionnel Minimaliste Ingénieur Noir et Blanc (2) (2).pdf"
               download
               className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
             >
