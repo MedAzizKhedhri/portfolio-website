@@ -37,6 +37,22 @@ export const projects: Project[] = [
     image: "/reciprocating engine or compressor system.png",
     live: "#",
   },
+  {
+    id: 4,
+    title: "Injection Mold Tool Design",
+    description: "Exploded 3D CAD assembly of an injection mold tool for a mechanical housing component. Shows the full stack-up of core and cavity plates, guide rails, ejector pins, and clamping plates, illustrating how the mold opens to release the molded part.",
+    technologies: ["SolidWorks", "CATIA", "Mold Design", "Injection Molding", "Tooling"],
+    image: "/injection mold tool exploded view.jpg",
+    live: "#",
+  },
+  {
+    id: 5,
+    title: "Mold Cavity & Runner System",
+    description: "3D CAD model of injection mold cavity halves highlighting the gating and runner system. Visualizes the sprue, runners, and cooling/ejector channels used to guide molten material into the cavity and eject the finished part.",
+    technologies: ["SolidWorks", "CATIA", "Mold Flow", "Gating & Runner Design", "Injection Molding"],
+    image: "/mold cavity runner system.png",
+    live: "#",
+  },
 
 ];
 

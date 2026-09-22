@@ -14,6 +14,17 @@ export type Certification = {
 // Define and export your certifications array
 export const certifications: Certification[] = [
     {
+        id: 5,
+        title: "Lean Basics",
+        issuer: "iLeanGO",
+        date: "2026",
+        description: "Certified in the fundamentals of Lean methodology, covering core Lean principles and tools for eliminating waste and improving process efficiency.",
+        technologies: ["Lean Manufacturing", "Process Improvement", "Continuous Improvement"],
+        image: "/lean-basics-certification.png",
+        credentialId: "000331/2026",
+        credentialUrl: "/certyfikat1.pdf",
+    },
+    {
         id: 4,
         title: "SolidWorks Simulation Associate",
         issuer: "Dassault Systèmes",

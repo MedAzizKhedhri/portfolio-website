@@ -83,7 +83,7 @@ export default function Certifications() {
                   </div>
                   {/* View Certification Link */}
                   <a
-                    href={cert.image}
+                    href={cert.credentialUrl || cert.image}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm text-primary hover:text-primary/80 transition-colors"
